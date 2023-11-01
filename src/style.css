@@ -19,3 +19,26 @@ header p {
   text-align: justify;
   font-size: 1.5rem;
 }
+.card-img-top {
+  width: 26.1rem;
+  height: 45vh;
+}
+@media (max-width: 600px) {
+  #Product,
+  #Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin-top: 10%;
+  }
+  .card h5 {
+    text-align: justify;
+  }
+  .card-img-top {
+    width: 18.1rem;
+    height: 45vh;
+  }
+}
