@@ -1,0 +1,33 @@
+.rgba-bg {
+  background-image: url(../assets/Welcome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-page {
+  margin-top: 2%;
+}
+
+@media (max-width: 400px) {
+  .imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .product-page {
+    text-align: center;
+  }
+  .rgba-bg {
+    background-image: none;
+    background-color: black;
+    color: white;
+  }
+  .imgs img {
+    margin-top: 5%;
+  }
+  .product-page h5,
+  p {
+    font-size: 1.2rem;
+  }
+}

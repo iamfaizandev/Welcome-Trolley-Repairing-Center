@@ -19,11 +19,26 @@ header p {
   text-align: justify;
   font-size: 1.5rem;
 }
+section {
+  margin: 3% 0 5% 0;
+}
+section .card {
+  border: 3px solid red;
+  width: 23vw;
+  overflow: hidden;
+  transition: 2s;
+}
 .card-img-top {
-  width: 26.1rem;
   height: 45vh;
 }
-@media (max-width: 600px) {
+
+section .card:hover {
+  border: 3px solid green;
+  scale: 1.1;
+  transition: 2s;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
   #Product,
   #Contact {
     display: flex;
@@ -31,14 +46,16 @@ header p {
     justify-content: center;
     align-items: center;
   }
-  .card {
+  #Product .card {
     margin-top: 10%;
+    width: 90vw;
+    margin: 5% 0 0 0;
   }
   .card h5 {
     text-align: justify;
   }
   .card-img-top {
-    width: 18.1rem;
-    height: 45vh;
+    width: 22.1rem;
+    height: 50vh;
   }
 }
