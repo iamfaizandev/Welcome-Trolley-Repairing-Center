@@ -38,6 +38,9 @@ section .card:hover {
   transition: 2s;
   cursor: pointer;
 }
+#banner {
+  width: 70vw;
+}
 @media (max-width: 400px) {
   #Product,
   #Contact {

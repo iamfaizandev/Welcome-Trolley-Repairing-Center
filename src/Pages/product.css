@@ -1,33 +1,30 @@
 .rgba-bg {
-  background-image: url(../assets/Welcome.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
+  color: white;
 }
 .product-page {
-  margin-top: 2%;
+  padding: 2%;
+}
+.product-page img {
+  width: 30vw;
 }
 
 @media (max-width: 400px) {
-  .imgs {
+  .row {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
   }
-  .product-page {
-    text-align: center;
+  .product-page img {
+    width: 60vw;
   }
-  .rgba-bg {
-    background-image: none;
-    background-color: black;
-    color: white;
+  ul {
+    font-size: 95%;
+    text-align: justify;
+    padding: 0;
   }
-  .imgs img {
-    margin-top: 5%;
-  }
-  .product-page h5,
-  p {
-    font-size: 1.2rem;
+  .col-6 {
+    width: 95%;
   }
 }
