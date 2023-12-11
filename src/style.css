@@ -113,7 +113,9 @@ img {
   height: 14rem;
   border-radius: 10px;
 }
-
+.Card .back a {
+  color: white;
+}
 .back a {
   text-decoration: none;
   position: absolute;
@@ -189,7 +191,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 16%;
+    margin-left: 12%;
     margin-top: 10%;
   }
   #banner img {
@@ -208,5 +210,9 @@ img {
   }
   .left {
     margin-left: 0%;
+  }
+  .Card > .back {
+    width: 60%;
+    height: 14rem;
   }
 }
