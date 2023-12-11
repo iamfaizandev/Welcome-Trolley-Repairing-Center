@@ -176,7 +176,7 @@ img {
   cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   #Product,
   #Contact {
     display: flex;
